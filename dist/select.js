@@ -1342,7 +1342,7 @@ uis.directive('uiSelect',
           originalWidth = element[0].style.width;
 
           // Now move the actual dropdown element to the end of the body
-          $document.find('body').append(element);
+          $document.find('#bs2-container').append(element);
 
           element[0].style.position = 'absolute';
           element[0].style.left = offset.left + 'px';
